@@ -1,0 +1,53 @@
+@media (max-width: 1199.98px){
+    .blog__title-box{
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 991.98px){
+
+}
+
+@media (max-width: 767.98px){
+    .header__container{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 25px;
+    }
+    .header__title{
+        font-size: 35px;
+    }
+    .header__subtitle{
+        font-size: 25px; 
+    }
+    .services .col-xl-4{
+        margin-bottom: 50px;
+    }
+    .services .row{
+        justify-content: center;
+    }
+    .contact .col-xl-3{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .contact .fa{
+        display: none;
+    }
+  
+    
+}
+
+@media (max-width: 565.98px){
+    .clients .col-xl-2{
+        margin-bottom: 15px;
+    }
+    
+    .clients .col-xl-2:last-child{
+        display: none;
+    }
+
+}
